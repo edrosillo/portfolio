@@ -1,0 +1,134 @@
+html {
+font-size: 16px;
+font-family: 'Raleway';
+}
+
+
+h1 {
+  font-family: "Playfair Display";
+  font-weight: 900;
+  font-size: 4rem;
+  margin-top: 2rem;
+  color: white;
+}
+
+.navbar {
+  box-shadow: -2px 4px 9px -5px rgba(0,0,0,0.38);
+}
+
+.navbar-brand {
+  font-family: "Playfair Display";
+  font-weight: bold;
+}
+
+.dropdown-menu { 
+  right: 0; left: auto;
+}
+
+
+.jumbotron {
+  height: 35rem;
+  width: 100%;
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px 3px #000000;
+  background-size: cover;
+  background-position: center;
+}
+
+.jumbotron-anim {
+  background-image: url("../images/lightbackground_sml.gif");
+}
+
+
+.jumbotron p {
+  font-size: 2rem;
+  text-shadow: none;
+}
+.jumbotron-1 {
+  background-image: url("../images/slick_1.png");
+}
+
+.jumbotron-2 {
+  background-image: url("../images/slick_2.png");
+}
+
+.jumbotron-3 {
+  background-image: url("../images/slick_3.png");
+}
+
+.projects img{
+  width: 100%;
+}
+
+#project-section {
+  margin-top: 4rem;
+  margin-bottom: 5rem;
+}
+
+#project-section h1 {
+  font-size: 3rem;
+  color: black;
+  margin-top: 1rem;
+  font-family: 'Raleway';
+}
+
+#project-section h2 {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+}
+
+#project-section h2,
+#project-section p {
+  display: flex;
+  justify-content: center;
+  font-family: 'Raleway';
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+#project-section a {
+  color: #393a3d;
+}
+
+.about-me {
+  background-color: #f7f7f7;
+  padding: 5rem 0;
+}
+
+footer {
+  height: 20rem;
+  background-color: #393a3d;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: lighter;
+  line-height: 2.5;
+}
+
+footer ul {
+  list-style: none;
+  padding-right: 3rem;
+}
+
+footer li {
+  border-bottom: 1px solid #058a8e;
+  text-align: center;
+}
+
+footer h3 {
+  padding-left: 3rem;
+}
+
+footer a {
+  color: inherit;
+}
+
+#gallery-grid img {
+  width: 60px;
+  height: 60px;
+  padding: 5px;
+}
+
+#gallery-grid li {
+    border-bottom: none;
+}
