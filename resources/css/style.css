@@ -145,6 +145,18 @@ footer a {
    width: 100%;
 }
 
+.cardtext {
+  height: 10rem;
+}
+
+/*  Design Page */
+
+.design-header h1 {
+  text-align: center;
+  color: black;
+  font-size: 2rem;
+}
+
 /* ensure equal card height inside carousel */
 .carousel-inner>.row-equal.active, 
 .carousel-inner>.row-equal.next, 
