@@ -45,18 +45,16 @@
     <div class="collapse navbar-collapse d-flex justify-content-between">
       <!-- Navbar Left -->
       <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="#">Home</a>
-        </li>
-        <li class="nav-item">
+        
+      <!--  <li class="nav-item">
           <a class="nav-link" href="#">Contact</a>
-        </li>
+        </li> -->
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Projects</a>
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Learn more</a>
             <div class="dropdown-menu">
-                <a class="dropdown-item" href="#">Responsive Websites</a>
+                <a class="dropdown-item" href="websites.html">Responsive Websites</a>
                 <a class="dropdown-item" href="design.html">Graphic Design</a>
-                <a class="dropdown-item" href="#">Motion Graphics</a>
+                <a class="dropdown-item" href="http://www.edrosillo.com/videos/">Motion Graphics</a>
             </div>
       </ul>
     </div>
@@ -65,13 +63,17 @@
 
 <!--Jumbotron-->
 <div>
-  <div class="jumbotron jumbotron-anim d-flex justify-content-center align-items-center">
-    <div class="container fluid">
-    <h1>Front-End Web Developer.</h1>
-    <p>Self taught. Inspired. Motivated.</p>
-    <p>8 years of Professional Graphic Design Experience.</p>
-    <p>Over 6 years of experience in After Effects.</p>
-  </div>
+  <div class="jumbotron jumbotron-anim d-flex justify-content-center align-items-center mt-5">
+    <div class="container-fluid overlay-container">
+      <div id="overlay"></div>
+    </div>
+
+    <div class="ontop d-flex justify-content-center flex-column align-items-center">
+      <h1>Hi, I'm Eddie. I design and develop websites.
+      </h1>
+      <a href="#project-section">
+      <img class="learnmore" src="./resources/images/learn_more.png" alt=""></a>
+    </div>
 </div>
 
 <!--Recent Projects-->
@@ -81,28 +83,28 @@
   </div>
 
   <div class="row">
-      <div class="container-fluid col-md-5 col-sm-12 col-lg-4 animate_link">
-        <a href="#">
+      <div class="container-fluid col-md-12 col-sm-12 col-lg-4 animate_link mb-4">
+        <a href="websites.html">
           <div class="img-fluid projects">
-            <img src="./resources/images/placeimg_nature.jpg" alt="nature pic">
+            <img src="./resources/images/colmar_home.png" alt="Capture of Colmar Academy Project">
           </div>
           <h2>Responsive Websites</h2>
         </a>
       </div>
 
-      <div class="container-fluid col-md-5 col-sm-12 col-lg-4 animate_link">
+      <div class="container-fluid col-md-12 col-sm-12 col-lg-4 animate_link mb-4">
         <a href="design.html">
           <div class="img-fluid projects">
-            <img src="./resources/images/placeimg_tech.jpg" alt="nature pic">
+            <img src="./resources/images/graphics_home.jpg" alt="nature pic">
           </div>
           <h2>Graphic Design</h2>
         </a>
       </div>
 
-      <div class="container-fluid col-md-5 col-sm-12 col-lg-4 animate_link">
+      <div class="container-fluid col-md-12 col-sm-12 col-lg-4 animate_link mb-4">
         <a href="http://www.edrosillo.com/videos/" target="_blank">
           <div class="img-fluid projects">
-            <img src="./resources/images/placeimg_animals.jpg" alt="nature pic">
+            <img src="./resources/images/motion_home.gif" alt="nature pic">
           </div>
           <h2>Motion Graphics</h2>
         </a>
@@ -116,9 +118,9 @@
 
 <!--about me-->
 
-<div class="container-fluid about-me">
-  <div class="d-flex justify-content-center">
-    <div class="container d-flex justify-content-center col-lg-6 col-sm-12">
+<div class="container-fluid about-me" id="about-me">
+  <div class="d-flex justify-content-center flex-md-row flex-sm-column">
+    <div class="container-fluid d-flex justify-content-center col-lg-6 col-sm-12">
       <img class="" id="biophoto" src="./resources/images/bio_photo.png" alt="me">
     </div>
     <div class="container-fluid mt-5 col-lg-6 col-sm-12 animate_link">
@@ -162,9 +164,9 @@
 
   <div>
     <ul class="d-flex flex-column mt-5">
-      <li><i class="far fa-user fa-lg"></i> About Me</li>
-      <li><i class="far fa-address-card fa-lg"></i> Contact</li>
-      <li><i class="far fa-paper-plane fa-lg"></i> Projects</li>
+      <li><a href="#about-me"><i class="far fa-user fa-lg"></i> About Me</a></li>
+      <li><a href="mailto:rosillo.ed@gmail.com"><i class="far fa-address-card fa-lg"></i> Contact</a></li>
+      <li><a href="#project-section"><i class="far fa-paper-plane fa-lg"></i> Projects</a></li>
     </ul>
   </div>
 

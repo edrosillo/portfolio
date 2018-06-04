@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Contact Ed Rosillo</title>
+
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Favicon -->
+    <link rel="icon" href="./resources/favicon.ico" type="image/x-icon">
+
+    <!-- Bootstrap 4 -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+        crossorigin="anonymous">
+
+    <!--Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,600|PT+Serif:400,700" rel="stylesheet">
+
+    <!--Slick-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
+    <link rel="stylesheet" type="text/css" href="./resources/slick/slick.css" />
+
+
+    <!--stylesheet-->
+    <link rel="stylesheet" href="./resources/css/style.css">
+
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <a class="navbar-brand ml-2" href="index.html">Ed Rosillo</a>
+
+        <div class="collapse navbar-collapse d-flex justify-content-between">
+            <!-- Navbar Left -->
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <!-- <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li> -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Projects</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Responsive Websites</a>
+                        <a class="dropdown-item" href="design.html">Graphic Design</a>
+                        <a class="dropdown-item" href="#">Motion Graphics</a>
+                    </div>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<form id="contact-form" method="post" action="contact.php" role="form">
+
+    <div class="messages"></div>
+
+    <div class="controls">
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="form_name">Firstname *</label>
+                    <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required"
+                        data-error="Firstname is required.">
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="form_lastname">Lastname *</label>
+                    <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required"
+                        data-error="Lastname is required.">
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="form_email">Email *</label>
+                    <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required"
+                        data-error="Valid email is required.">
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="form_phone">Phone</label>
+                    <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Please enter your phone">
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label for="form_message">Message *</label>
+                    <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required"
+                        data-error="Please,leave us a message."></textarea>
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <input type="submit" class="btn btn-success btn-send" value="Send message">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <p class="text-muted">
+                    <strong>*</strong> These fields are required. Contact form template by
+                    <a href="http://bootstrapious.com" target="_blank">Bootstrapious</a>.</p>
+            </div>
+        </div>
+    </div>
+
+</form>
+    <footer>
+        <div class="container">
+            <div class="d-flex justify-content-center">
+                <div class="col-s d-flex flex-column mt-5">
+                    <ul>
+                        <li>
+                            <i class="far fa-user fa-lg"></i> About Me</li>
+                        <li>
+                            <i class="far fa-address-card fa-lg"></i> Contact</li>
+                        <li>
+                            <i class="far fa-paper-plane fa-lg"></i> Projects</li>
+                    </ul>
+                </div>
+    
+                <div class="col-s d-flex flex-column mt-5">
+                    <ul>
+                        <li>
+                            <a href="https://www.github.com/edrosillo" target="_blank">
+                                <i class="fab fa-github-square fa-lg"></i> GitHub</a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/edrosillo" target="_blank">
+                                <i class="fab fa-linkedin fa-lg"></i> LinkedIn</a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/ed_rosillo" target="_blank">
+                                <i class="fab fa-instagram fa-lg"></i> Instagram</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex col-sm-12 mt-2">
+            <p>&copy;Ed Rosillo 2018</p>
+        </div>
+        </div>
+    </footer>
+
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
+    crossorigin="anonymous"></script>
+
+<!-- Tether -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.4/css/tether-theme-basic.min.css" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+    crossorigin="anonymous"></script>
+
+<!-- Bootstrap 4 -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+    crossorigin="anonymous"></script>
+
+<!--Slick-->
+<script type="text/javascript" src="./resources/slick/slick.min.js"></script>
+<script src="./resources/js/main.js" type="text/javascript"></script>
+
+</body>
+
+</html>
