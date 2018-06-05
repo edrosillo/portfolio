@@ -206,7 +206,11 @@ footer a {
     border-bottom: none;
 }
 
-/* Bootstrap Card Carousel */
+.designpage-header h1 {
+  color: #000000;
+  font-size: 3rem;
+}
+
 
 /* equal card height */
 .row-equal > div[class*='col-'] {
@@ -351,8 +355,4 @@ footer a {
   .web-card {
     margin: 0 auto;
   }
-}
-
-#design-header {
-  color: #000000;
 }
