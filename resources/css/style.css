@@ -164,9 +164,9 @@ h1 {
 
 #biophoto {
   height: 25rem;
-  width: 25rem;
+  width: auto;
+  object-fit: contain;
 }
-
 
 
 footer {
@@ -195,6 +195,7 @@ footer h3 {
 footer a {
   color: inherit;
 }
+
 
 #gallery-grid img {
   width: 60px;
