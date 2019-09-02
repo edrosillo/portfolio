@@ -89,6 +89,17 @@ h1 {
   width: 100%;
 }
 
+#recent-section iframe {
+  margin-right: 10px;
+}
+
+#recent-section h1 {
+  font-size: 3rem;
+  color: black;
+  margin-top: 1rem;
+  font-family: 'Raleway';
+}
+
 #project-section {
   margin-top: 4rem;
   margin-bottom: 5rem;
