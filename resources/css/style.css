@@ -1,11 +1,11 @@
 html {
 font-size: 16px;
-font-family: 'Raleway';
+font-family: 'Figtree', sans-serif;
 }
 
 
 h1 {
-  font-family: "Raleway";
+  font-family: 'Figtree', sans-serif;
   font-weight: 900;
   font-size: 3rem;
   margin-top: 2rem;
@@ -17,7 +17,7 @@ h1 {
 }
 
 .navbar-brand {
-  font-family: "Raleway";
+  font-family: 'Figtree', sans-serif;
   font-weight: 600;
 }
 
@@ -27,7 +27,7 @@ h1 {
 
 
 .jumbotron {
-  font-family: "Raleway";
+  font-family: 'Figtree', sans-serif;
   position: relative;
   height: 45rem;
   width: 100%;
@@ -97,7 +97,7 @@ h1 {
   font-size: 3rem;
   color: black;
   margin-top: 1rem;
-  font-family: 'Raleway';
+  font-family: 'Figtree', sans-serif;
 }
 
 #project-section {
@@ -109,7 +109,7 @@ h1 {
   font-size: 3rem;
   color: black;
   margin-top: 1rem;
-  font-family: 'Raleway';
+  font-family: 'Figtree', sans-serif;
 }
 
 #project-section h2 {
@@ -121,7 +121,7 @@ h1 {
 #project-section p {
   display: flex;
   justify-content: center;
-  font-family: 'Raleway';
+  font-family: 'Figtree', sans-serif;
   font-weight: normal;
   text-transform: uppercase;
 }
@@ -228,7 +228,6 @@ footer a {
 .websitepage-header h1 {
   font-size: 2rem;
   color: #000000;
-  mar
 }
 
 
@@ -259,7 +258,7 @@ footer a {
 }
 
 .cardtext h6, h2 {
-  font-family: "Raleway";
+  font-family: 'Figtree', sans-serif;
   font-weight: 400;
   font-size: 1.5rem;
 }
@@ -282,7 +281,7 @@ footer a {
 /*  Design Page */
 
 .design-header h1 {
-  font-family: "raleway";
+  font-family: 'Figtree', sans-serif;
   text-align: center;
   color: black;
   font-size: 2rem;
