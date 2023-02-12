@@ -50,7 +50,7 @@ canvas {
 .jumbotron-anim {
   background-image: url("../images/codebackground_sml.gif");
 }
-*/
+
 
 #overlay {
   z-index: 2;
@@ -62,6 +62,7 @@ canvas {
   top: 0;
   bottom: 0;
 }
+*/
 
 .ontop {
   z-index: 4;
