@@ -46,10 +46,11 @@ canvas {
   z-index: -1;
 }
 
-
+/*
 .jumbotron-anim {
   background-image: url("../images/3dwaves.gif");
 }
+*/
 
 
 #overlay {
