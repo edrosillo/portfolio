@@ -6,7 +6,7 @@ font-family: 'Figtree', sans-serif;
 
 h1 {
   font-family: 'Figtree', sans-serif;
-  font-weight: 900;
+  font-weight: 700;
   font-size: 3rem;
   margin-top: 2rem;
   color: white;
@@ -38,6 +38,8 @@ h1 {
   background-position: center;
   z-index: 1;
 }
+
+
 
 .jumbotron-anim {
   background-image: url("../images/codebackground_sml.gif");
