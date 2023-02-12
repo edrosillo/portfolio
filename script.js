@@ -35,11 +35,8 @@ init();
 animate();
 
 function init() {
-  container = document.createElement("div");
+  container = document.getElementById("waves");
   document.body.appendChild(container);
-  if (container) {
-    container.className += container.className ? " waves" : "waves";
-  }
 
   camera = new THREE.PerspectiveCamera(
     120,
@@ -47,8 +44,8 @@ function init() {
     1,
     10000
   );
-  camera.position.y = 150; //changes how far back you can see i.e the particles towards horizon
-  camera.position.z = 300; //This is how close or far the particles are seen
+  camera.position.y = 50; //changes how far back you can see i.e the particles towards horizon
+  camera.position.z = 100; //This is how close or far the particles are seen
 
   camera.rotation.x = 0.35;
 
@@ -79,7 +76,7 @@ function init() {
 
   renderer = new THREE.CanvasRenderer();
   renderer.setSize(window.innerWidth, window.innerHeight);
-  renderer.setClearColor(0xffffff, 1);
+  renderer.setClearColor(0x000000, 1);
   container.appendChild(renderer.domElement);
 
   window.addEventListener("resize", onWindowResize, false);

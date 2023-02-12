@@ -39,7 +39,12 @@ h1 {
   z-index: 1;
 }
 
-
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
 
 .jumbotron-anim {
   background-image: url("../images/codebackground_sml.gif");
