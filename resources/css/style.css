@@ -39,10 +39,6 @@ h1 {
   z-index: 1;
 }
 
-.animation {
-  overflow: hidden;
-}
-
 /*
 .jumbotron-anim {
   background-image: url("../images/3dwaves.gif");
