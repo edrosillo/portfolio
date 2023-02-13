@@ -39,16 +39,14 @@ h1 {
   z-index: 1;
 }
 
-/*
 .jumbotron-anim {
-  background-image: url("../images/3dwaves.gif");
+  background-image: url("../images/retroconsolesite.gif");
 }
-*/
-
 
 #overlay {
   z-index: 2;
   position: absolute;
+  background-color:rgba(31, 31, 31, 0);
   width: 100%;
   height: 100%;
   left: 0; 
