@@ -1,11 +1,10 @@
 html {
-font-size: 16px;
-font-family: 'Figtree', sans-serif;
+  font-size: 16px;
+  font-family: "Figtree", sans-serif;
 }
 
-
 h1 {
-  font-family: 'Figtree', sans-serif;
+  font-family: "Figtree", sans-serif;
   font-weight: 700;
   font-size: 3rem;
   margin-top: 2rem;
@@ -17,17 +16,17 @@ h1 {
 }
 
 .navbar-brand {
-  font-family: 'Figtree', sans-serif;
+  font-family: "Figtree", sans-serif;
   font-weight: 600;
 }
 
-.dropdown-menu { 
-  right: 0; left: auto;
+.dropdown-menu {
+  right: 0;
+  left: auto;
 }
 
-
 .jumbotron {
-  font-family: 'Figtree', sans-serif;
+  font-family: "Figtree", sans-serif;
   position: relative;
   height: 45rem;
   width: 100%;
@@ -39,21 +38,60 @@ h1 {
   z-index: 1;
 }
 
+/*
 .jumbotron-anim {
   background-image: url("../images/retroconsolesml.gif");
 }
+*/
 
-#overlay {
-  z-index: 2;
+#animation {
   position: absolute;
-  background-color:rgba(31, 31, 31, 0.066);
-  width: 100%;
+  width: 100vw;
   height: 100%;
-  left: 0; 
+  left: 0;
   right: 0;
   top: 0;
   bottom: 0;
 }
+
+.colors {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 100vw;
+  height: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.blue {
+  background-color: #4ac7f1;
+  height: 72.5%;
+  width: 100vw;
+}
+
+.green {
+  background-color: #3ac818;
+  height: 27.5%;
+  width: 100vw;
+}
+
+/**
+#overlay {
+  z-index: 2;
+  position: absolute;
+  background-color: rgba(31, 31, 31, 0.066);
+  width: 100%;
+  height: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+*/
 
 .ontop {
   z-index: 4;
@@ -64,9 +102,9 @@ h1 {
   margin-top: 18rem;
 }
 
-.learnmore:hover { 
-  transition: all .4s ease-in-out; 
-  transform: scale(1.1); 
+.learnmore:hover {
+  transition: all 0.4s ease-in-out;
+  transform: scale(1.1);
 }
 
 .jumbotron p {
@@ -85,7 +123,7 @@ h1 {
   background-image: url("../images/slick_3.png");
 }
 
-.projects img{
+.projects img {
   width: 100%;
 }
 
@@ -97,7 +135,7 @@ h1 {
   font-size: 3rem;
   color: black;
   margin-top: 1rem;
-  font-family: 'Figtree', sans-serif;
+  font-family: "Figtree", sans-serif;
 }
 
 #project-section {
@@ -109,7 +147,7 @@ h1 {
   font-size: 3rem;
   color: black;
   margin-top: 1rem;
-  font-family: 'Figtree', sans-serif;
+  font-family: "Figtree", sans-serif;
 }
 
 #project-section h2 {
@@ -121,7 +159,7 @@ h1 {
 #project-section p {
   display: flex;
   justify-content: center;
-  font-family: 'Figtree', sans-serif;
+  font-family: "Figtree", sans-serif;
   font-weight: normal;
   text-transform: uppercase;
 }
@@ -130,15 +168,17 @@ h1 {
   color: #393a3d;
 }
 
-.animate_link a, 
+.animate_link a,
 .card-block h6,
 .card-block {
   text-decoration: none;
-  color: rgba(0,0,0,.4);
+  color: rgba(0, 0, 0, 0.4);
   z-index: 1;
 }
 
-.animate_link a:before, .animate_link h2:before, .animate_link p:before, 
+.animate_link a:before,
+.animate_link h2:before,
+.animate_link p:before,
 .card-block h6:before,
 .card-block h2:before {
   content: "";
@@ -151,7 +191,12 @@ h1 {
   visibility: hidden;
   border-radius: 5px;
   transform: scaleX(0);
-  transition: .25s linear;
+  transition: 0.25s linear;
+}
+
+iframe {
+  width: 560px;
+  height: 315px;
 }
 
 .animate_link a:hover:before,
@@ -159,10 +204,10 @@ h1 {
 .animate_link h2:hover:before,
 .animate_link h2:focus:before,
 .animate_link p:hover:before,
-.animate_link p:focus:before, 
-.card-block h6:hover:before, 
+.animate_link p:focus:before,
+.card-block h6:hover:before,
 .card-block h6:focus:before,
-.card-block h2:hover:before, 
+.card-block h2:hover:before,
 .card-block h2:focus:before {
   visibility: visible;
   transform: scaleX(1);
@@ -178,7 +223,6 @@ h1 {
   width: auto;
   object-fit: contain;
 }
-
 
 footer {
   height: 20rem;
@@ -209,7 +253,6 @@ footer a {
   color: inherit;
 }
 
-
 #gallery-grid img {
   width: 60px;
   height: 60px;
@@ -217,7 +260,7 @@ footer a {
 }
 
 #gallery-grid li {
-    border-bottom: none;
+  border-bottom: none;
 }
 
 .designpage-header h1 {
@@ -230,15 +273,14 @@ footer a {
   color: #000000;
 }
 
-
 /* equal card height */
-.row-equal > div[class*='col-'] {
-    display: flex;
-    flex: 1 0 auto;
+.row-equal > div[class*="col-"] {
+  display: flex;
+  flex: 1 0 auto;
 }
 
 .row-equal .card {
-   width: 100%;
+  width: 100%;
 }
 
 .cardtext {
@@ -252,13 +294,14 @@ footer a {
 }
 
 .card:hover {
-  box-shadow: 3px 5px 9px 4px rgba(115,115,115,0.75);
--webkit-box-shadow: 3px 5px 9px 4px rgba(115,115,115,0.75);
--moz-box-shadow: 3px 5px 9px 4px rgba(115,115,115,0.75);
+  box-shadow: 3px 5px 9px 4px rgba(115, 115, 115, 0.75);
+  -webkit-box-shadow: 3px 5px 9px 4px rgba(115, 115, 115, 0.75);
+  -moz-box-shadow: 3px 5px 9px 4px rgba(115, 115, 115, 0.75);
 }
 
-.cardtext h6, h2 {
-  font-family: 'Figtree', sans-serif;
+.cardtext h6,
+h2 {
+  font-family: "Figtree", sans-serif;
   font-weight: 400;
   font-size: 1.5rem;
 }
@@ -272,16 +315,16 @@ footer a {
   text-decoration: none;
   -webkit-transition: color 2s; /* For Safari 3.0 to 6.0 */
   transition: color 2s; /* For modern browsers */
-  }
-    
+}
+
 .cardtext h2 a:hover {
-   color: #058a8e;
+  color: #058a8e;
 }
 
 /*  Design Page */
 
 .design-header h1 {
-  font-family: 'Figtree', sans-serif;
+  font-family: "Figtree", sans-serif;
   text-align: center;
   color: black;
   font-size: 2rem;
@@ -289,24 +332,23 @@ footer a {
 }
 
 /* ensure equal card height inside carousel */
-.carousel-inner>.row-equal.active, 
-.carousel-inner>.row-equal.next, 
-.carousel-inner>.row-equal.prev {
-    display: flex;
+.carousel-inner > .row-equal.active,
+.carousel-inner > .row-equal.next,
+.carousel-inner > .row-equal.prev {
+  display: flex;
 }
 
 /* prevent flicker during transition */
-.carousel-inner>.row-equal.active.left, 
-.carousel-inner>.row-equal.active.right {
-    opacity: 0.5;
-    display: flex;
+.carousel-inner > .row-equal.active.left,
+.carousel-inner > .row-equal.active.right {
+  opacity: 0.5;
+  display: flex;
 }
-
 
 /* control image height */
 .card-img-top-250 {
-    max-height: 250px;
-    overflow:hidden;
+  max-height: 250px;
+  overflow: hidden;
 }
 
 /*Websites Section*/
@@ -352,7 +394,7 @@ footer a {
   line-height: 1.5rem;
 }
 
-.color-overlay  {
+.color-overlay {
   background-color: rgba(255, 255, 255, 0.541);
   position: absolute;
   top: 0;
@@ -360,14 +402,14 @@ footer a {
   left: 0;
   right: 0;
   opacity: 0;
-  transition: .5s ease;
+  transition: 0.5s ease;
   width: 89%;
   height: 100%;
-} 
+}
 
 .web-card:hover {
-  transition: all .3s ease-in-out; 
-  transform: scale(1.2); 
+  transition: all 0.3s ease-in-out;
+  transform: scale(1.2);
   overflow: hidden;
 }
 
@@ -380,4 +422,24 @@ footer a {
   .web-card {
     margin: 0 auto;
   }
+
+@media only screen and (max-width: 580px) {
+  .ontop img {
+    margin-top: 10rem;
+  }
+
+  .blue {
+    height: 50%;
+  }
+  .green{
+    height: 50%;
+  }
+  iframe{
+    width: 90vw;
+    height: 280px;
+  }
+  }
+}
+
+
 }
