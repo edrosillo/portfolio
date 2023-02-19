@@ -423,23 +423,20 @@ h2 {
     margin: 0 auto;
   }
 
-@media only screen and (max-width: 580px) {
-  .ontop img {
-    margin-top: 10rem;
-  }
+  @media only screen and (max-width: 580px) {
+    .ontop img {
+      margin-top: 10rem;
+    }
 
-  .blue {
-    height: 50%;
+    .blue {
+      height: 50%;
+    }
+    .green {
+      height: 50%;
+    }
+    iframe {
+      width: 90vw;
+      height: 280px;
+    }
   }
-  .green{
-    height: 50%;
-  }
-  iframe{
-    width: 90vw;
-    height: 280px;
-  }
-  }
-}
-
-
 }
